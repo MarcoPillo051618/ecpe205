@@ -1,31 +1,26 @@
 package com.ecpe308.sample;
 
 public class Pet {
-    public String name, breed; //persian, labrador, golden retriever
-    public String pet_type;  //cat/dog
+    private String name;
+    private int age;
 
-    public String getName(){
+    // Accessor (getter) for name
+    public String getName() {
         return name;
-    }
+    }   
 
-    public String getBreed(){
-        return breed;
-    }
-
-    public String getPet_type(){
-        return pet_type;
-    }
-
-    public void setName (String name){
+    // Mutator (setter) for name
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setBreed (String breed){
-        this.breed = breed; 
+    // Accessor (getter) for age
+    public int getAge() {
+        return age;
     }
-    
-    public void setPet_type (String pet_type){
-        this.pet_type= pet_type;
+
+    // Mutator (setter) for age
+    public void setAge(int age) {
+        this.age = age;
     }
 }
-

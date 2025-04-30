@@ -6,7 +6,7 @@ public class Person {
 
     public Person() {
 
-    };
+    }
 
     public Person(String lastName, String firstName, String address, int age) {
         this.lastName = lastName;
